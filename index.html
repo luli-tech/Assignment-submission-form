@@ -1,0 +1,237 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-step form</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="main-content-holder">
+      <div class="content-pagination-button">
+        <div class="svg-container">
+          <img src="bg-sidebar-desktop.svg" alt="" />
+        </div>
+        <ul>
+          <li>
+            <button>1</button>
+            <div>
+              <p class="step">STEP 1</p>
+              <p>YOUR INFO</p>
+            </div>
+          </li>
+          <li>
+            <button>2</button>
+            <div>
+              <p class="step">STEP 2</p>
+              <p>SELECT PLAN</p>
+            </div>
+          </li>
+          <li>
+            <button>3</button>
+            <div>
+              <p class="step">STEP 3</p>
+              <p>ADD-ONS</p>
+            </div>
+          </li>
+          <li>
+            <button>4</button>
+            <div>
+              <p class="step">STEP 4</p>
+              <p>SUMMARY</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <section class="components-container Personal-info">
+        <div class="component-container-header">
+          <h1 class="header">Personal info</h1>
+          <p class="info">Please provide your name,email, and phone number</p>
+        </div>
+        <div class="component-container-form">
+          
+            <div>
+              <label for="">Name</label>
+              <input required type="text" placeholder="e.g Stephen king" />
+            </div>
+            <div>
+              <label for="">Email Address</label>
+              <input required type="text" placeholder="e.g stephen@gmail.com" />
+            </div>
+            <div>
+              <label for="">Phone Number</label>
+              <input required type="text" placeholder="e.g +123 467 7935" />
+            </div>
+         
+        </div>
+      </section>
+
+      <section class="plan-container components-container">
+        <div class="component-container-header">
+          <h1 class="header">Select your plan</h1>
+          <p class="info">You have the option of monthly or yearly billing</p>
+        </div>
+        <form  class="test" action="">
+          <div class=" billing-control">
+            <div class="billing-container">
+              <div class="billing-icon">
+                <img src="icon-arcade.svg" alt="" />
+              </div>
+              <div class="billing-info">
+                <h2>Arcade</h2>
+                <p>$9/mo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="billing-container">
+            <div class="billing-icon">
+              <img src="icon-advanced.svg" alt="" />
+            </div>
+            <div class="billing-info">
+              <h2>Advanced</h2>
+              <p>$12/mo</p>
+            </div>
+          </div>
+
+          <div class="billing-container">
+            <div class="billing-icon"><img src="icon-pro.svg" alt="" /></div>
+            <div class="billing-info">
+              <h2>Pro</h2>
+              <p>$15/mo</p>
+            </div>
+          </div>
+        </form>
+
+        <div class="switch-container">
+          <p class="month">Monthly</p>
+          <div class="switch-toggle">
+            <div class="slider"></div>
+          </div>
+          <p class="year">Yearly</p>
+        </div>
+
+     
+      </section>
+
+      <section class="plan-container components-container">
+        <div class="component-container-header cool">
+          <h1 class="header">PIck add-ons</h1>
+          <p class="info">Add-0ns help enhanse your gaming experience</p>
+        </div>
+
+        <div class="billing-control service-control">
+          <div class=" service-container">
+            <form class="billing-container" action="">
+              <div class="billing-icon service-icon">
+                <label for=""></label>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="online-service">
+                <h2>Online Service</h2>
+                <p>Access to Multiplayer games</p>
+              </div>
+              <div class="price">
+                <p>+1$/mo</p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="billing-control service-control">
+          <div class="service-container">
+            <form class="billing-container" action="">
+              <div class="billing-icon service-icon">
+                <label for=""></label>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="online-service storage">
+                <h2>larger-storage</h2>
+                <p>Extra 1TB of cloud save</p>
+              </div>
+              <div class="price">
+                <p>+2$/mo</p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="billing-control service-control">
+          <div class="service-container">
+            <form class="billing-container" action="">
+              <div class="billing-icon service-icon">
+                <label for=""></label>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="online-service custom-profile">
+                <h2>Customizable-profile</h2>
+                <p>Custom theme on your profile</p>
+              </div>
+              <div class="price">
+                <p>+2$/mo</p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      
+      </section>
+
+     
+      </section>
+
+      <section class="finish-container components-container">
+        <div class="component-container-header">
+          <h1 class="header">Finishing up</h1>
+          <p class="info">
+            Double-check everything looks okay before confirming
+          </p>
+        </div>
+
+        <div class="billing-control service-control">
+          <div class="confirmation-form">
+            <div class="subscription-final active-billing">
+              <div>
+                <p class="current-price">Arcade (Yearly)</p>
+                <button>Change</button>
+              </div>
+              <div><p>$90/yr</p></div>
+            </div>
+<hr>
+            <div class="subscription-final inactive">
+              <div>
+                <p>online-service</p>
+                
+              </div>
+              <div class="inactive-amount"><p>$90/yr</p></div>
+            </div>
+
+            <div class="subscription-final inactive">
+              <div>
+                <p>larger-storage</p>
+               
+              </div>
+              <div class="inactive-amount"><p>$90/yr</p></div>
+            </div>
+          </div>
+
+          <div class="subscription-final total-per-year">
+            <div>
+              <p class="final-subscription">Total (per year)</p>
+             
+            </div>
+            <div><p class="final-total-amount">$120/yr</p></div>
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <div class="navigator">
+        <div> <button class="prev-btn">Go Back</button>
+          <button class="next-btn">Next Step</button></div>
+    </div>
+    </div>
+  </body>
+</html>
