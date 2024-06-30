@@ -6,18 +6,17 @@
   }
   body {
     background: white;
+    width: 100%;
   }
   .main-content-holder {
     display: flex;
-    position: relative;
     flex-direction: column;
     min-height: 50rem;
-    min-width: 23rem;
+    min-width: 27rem;
     padding: 0;
     border-radius: 0;
     position: relative;
     background: lavender;
-    position: relative;
   }
   .main-content-holder .content-pagination-button .svg-container {
     height: 100%;
@@ -26,8 +25,6 @@
   .main-content-holder .content-pagination-button .svg-container .mobile {
     height: 100%;
     width: 100%;
-    position: absolute;
-    top: 0;
     display: block;
   }
   .main-content-holder .content-pagination-button .svg-container .desktop {
