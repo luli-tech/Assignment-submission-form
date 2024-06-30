@@ -35,8 +35,11 @@ body {
 .main-content-holder .content-pagination-button .svg-container {
   width: 100%;
 }
-.main-content-holder .content-pagination-button .svg-container .svg-container img {
+.main-content-holder .content-pagination-button .svg-container .desktop {
   width: 100%;
+}
+.main-content-holder .content-pagination-button .svg-container .mobile {
+  display: none;
 }
 .main-content-holder .content-pagination-button ul {
   list-style: none;
@@ -102,7 +105,7 @@ body {
 .components-container .component-container-form div input {
   padding: 10px;
   border-radius: 8px;
-  width: 31rem;
+  width: 100%;
   height: 45px;
   border: 1px solid hsl(229, 24%, 87%);
 }
@@ -122,7 +125,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 10px;
-  width: 30rem;
+  width: 100%;
   align-items: center;
 }
 .billing-container .price {
@@ -198,7 +201,7 @@ body {
   justify-content: space-between;
   padding-top: 10px;
   font-size: 16px;
-  width: 28rem;
+  width: 100%;
 }
 .subscription-final div .current-price {
   color: hsl(213, 96%, 18%);
@@ -231,16 +234,16 @@ hr {
 
 .navigator {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: absolute;
-  transform: translatex(71%);
+  width: 100%;
+  transform: translatex(7%);
   bottom: 30px;
 }
 .navigator div {
   display: flex;
-  gap: 370px;
+  gap: 225px;
 }
-
 .hidden {
   background: white;
   color: black;
@@ -253,11 +256,17 @@ button {
 .test {
   display: flex;
   gap: 20px;
+  flex-direction: row;
   margin-bottom: 20px;
   margin-top: 40px;
 }
+.test .billing-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: cent;
+}
 .test .billing-container {
-  /* flex-basis: 20%; */
   height: 180px;
   width: 150px;
   display: flex;
