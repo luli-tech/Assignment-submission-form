@@ -8,6 +8,8 @@
     height: 120vh;
     width: 100%;
     background: white;
+   display:flex;
+   align-items:center;
   }
   .main-content-holder {
     display: flex;
