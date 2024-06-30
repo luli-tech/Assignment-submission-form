@@ -1,0 +1,120 @@
+@media screen and (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 120vh;
+    width: 100%;
+    background: white;
+  }
+  .main-content-holder {
+    display: flex;
+    flex-direction: column;
+    min-width: 26rem;
+    min-height: 50rem;
+    padding: 0;
+    border-radius: 0;
+    position: relative;
+    background: lavender;
+    position: relative;
+  }
+  .main-content-holder .content-pagination-button .svg-container {
+    height: 100%;
+    width: 100%;
+  }
+  .main-content-holder .content-pagination-button .svg-container .mobile {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .main-content-holder .content-pagination-button .svg-container .desktop {
+    display: none;
+  }
+  .main-content-holder .content-pagination-button ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    top: 35px;
+    left: 10px;
+    position: absolute;
+  }
+  .main-content-holder .content-pagination-button ul li button {
+    height: 35px;
+    width: 35px;
+  }
+  .main-content-holder .content-pagination-button ul li div {
+    display: none;
+  }
+  .components-container {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+    top: 100px;
+    left: 0;
+    transform: translatex(6%);
+  }
+  .components-container .component-container-form {
+    width: 100%;
+  }
+  .components-container .component-container-form div input {
+    width: 100%;
+  }
+  .components-container .test {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .components-container .test .billing-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .components-container .test .billing-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    transition: 0.2s;
+    justify-content: flex-start;
+  }
+  .components-container .test .billing-container .billing-info h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: hsl(213, 96%, 18%);
+  }
+  .components-container .test .billing-container .billing-info p {
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+  }
+  .components-container .test .billing-container:hover {
+    border: 1px solid blue;
+  }
+  .navigator {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 80px;
+    transform: translatex(0%);
+    bottom: 0;
+  }
+  .navigator div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: white;
+    padding: 0 20px;
+  }
+  .navigator .next-btn {
+    height: 40px;
+    width: 90px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
