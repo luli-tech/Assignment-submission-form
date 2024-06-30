@@ -5,17 +5,14 @@
     box-sizing: border-box;
   }
   body {
-    height: 120vh;
-    width: 100%;
     background: white;
-   display:flex;
-   align-items:center;
   }
   .main-content-holder {
     display: flex;
+    position: relative;
     flex-direction: column;
-    min-width: 26rem;
     min-height: 50rem;
+    min-width: 23rem;
     padding: 0;
     border-radius: 0;
     position: relative;
@@ -29,6 +26,8 @@
   .main-content-holder .content-pagination-button .svg-container .mobile {
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
     display: block;
   }
   .main-content-holder .content-pagination-button .svg-container .desktop {
