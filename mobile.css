@@ -8,6 +8,9 @@
     background: white;
     width: 100%;
   }
+  body::-webkit-scrollbar {
+    display: none;
+  }
   .main-content-holder {
     display: flex;
     flex-direction: column;
