@@ -98,6 +98,10 @@
   .components-container .test .billing-container:hover {
     border: 1px solid blue;
   }
+  .billing-control {
+    padding: 0;
+    gap: 10px;
+  }
   .navigator {
     display: flex;
     justify-content: space-between;
